@@ -5,7 +5,7 @@ import sys
 from flask import Flask
 myapp = Flask(__name__)
 
-@app.route('/')
+@myapp.route('/')
 def hello_world():
     return "Hello World!"
 
